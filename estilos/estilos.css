@@ -304,7 +304,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: calc(100% / 3 - (0.75em * 2));
+    width: 25%;
     margin: 0.75em;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -357,7 +357,7 @@
     font-weight: 900;
 }
 .section-description{
-    max-width: 400px;
+    width: 300px;
     color: #2e2e31;
 }
 .contact-social-links{
@@ -490,6 +490,18 @@ footer{
 .proyectos{
     width: 100%;
     margin: 0;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25em;}
+.prueba{
+    flex-direction: column;
+}
+.nada{
+    display: none;
+}
+.grid-proyect{
+    flex-direction: column;
+    align-items: center;        
+}
+.project{
+width: 100%;
 }
 }
